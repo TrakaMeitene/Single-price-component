@@ -120,3 +120,50 @@ span{
 	
 }
 
+@media only screen and (max-width: 450px) {
+body{
+		margin-top:140px;
+	margin-bottom:140px;}
+	
+.flex{
+
+width:80%;
+height:auto;
+}
+
+
+.sub{
+	display:flex;
+flex-direction:column;
+
+height:auto;
+}
+.subscription, .us{
+	width:auto;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+
+}
+@media only screen and (min-width: 360px) {
+	
+	
+	.btn{
+		width:90%;
+		margin-bottom:0px;
+	}
+	.subscription, .us, .community{
+	padding:20px;}
+	
+}
+@media only screen and (min-width: 1439px) {
+		.subscription, .us, .community{
+	padding:40px;}
+	.btn{
+		width:80%;
+	}
+	.subscription, .us{
+	width:50%;}
+		
+}
