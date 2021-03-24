@@ -9,7 +9,35 @@ height:100vh;
 .flex{
 	display:flex;
 	flex-direction:column;
-	border-radius:5px;
+	border-radius:7px;
 box-shadow: 0px 8px 10px 5px  hsl(218, 22%, 67%);
-width:800px;
-height:600px;}
+width:750px;
+height:550px;}
+.community{
+	width:89,5%;
+	height:30%;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	background-color:white;
+	padding:40px;
+}
+h1,h2,p{
+	font-family:'Karla', sans-serif;
+}
+h1{
+	color:hsl(179, 62%, 43%);
+	font-weight:700;
+	font-size:25px;
+}
+h2{
+	color: hsl(71, 73%, 54%);
+	font-weight:700;
+	font-size:20px;
+}
+p{
+	color:  hsl(218, 22%, 67%);
+	font-weight:700;
+	font-size:16px;
+	line-height:1.5;
+	margin-right:60px;
+}
